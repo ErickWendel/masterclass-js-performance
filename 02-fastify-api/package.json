@@ -1,0 +1,23 @@
+{
+  "name": "02-fastify-api",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "autocannon -d 5 localhost:3000/students"
+  },
+  "keywords": [],
+  "author": "erickwendel",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "engines": {
+    "node": "v20.15.0"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "knex": "^3.1.0",
+    "pg": "^8.12.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "db-connections",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --report-uncaught-exception --report-on-fatalerror index.js",
+    "load-test": "autocannon -d 5 localhost:3000"
+  },
+  "keywords": [],
+  "author": "erickwendel",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "knex": "^3.1.0",
+    "pg": "^8.12.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": "v20.15.0"
+  }
+}
